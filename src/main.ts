@@ -29,7 +29,7 @@ import Froalajs from "./view/Froalajs";
         sessionStorage.removeItem("__spa_path");
     }
 
-    if (await Wallet.connected() !== true) {
-        await Wallet.connect();
-    }
+    // if (await Wallet.connected() !== true) {
+    //     await Wallet.connect();
+    // }
 })();
