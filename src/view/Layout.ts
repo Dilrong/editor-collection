@@ -19,7 +19,11 @@ export default class Layout implements View {
                                 ViewUtil.go("/froalajs")
                             }
                         }),
-                        el("a", "CKEditor", { href: "https://ckeditor.com/ckeditor-5/demo/", target: "_blank" }),
+                        el("a", "CKEditor", {
+                            click: () => {
+                                ViewUtil.go("/ckeditor")
+                            }
+                        }),
                         el("a", "Quill.js", {
                             click: () => {
                                 ViewUtil.go("/quilljs")
