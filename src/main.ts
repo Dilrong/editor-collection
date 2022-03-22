@@ -8,9 +8,9 @@ import Home from "./view/Home";
 import Editorjs from "./view/Editorjs";
 import Quilljs from "./view/Quilljs";
 import Tinymcejs from "./view/Tinymcejs";
-import Toastjs from "./view/Toastjs";
 import Froalajs from "./view/Froalajs";
 import CkEditorjs from "./view/CkEditorjs";
+import ToastEdtiorjs from "./view/ToastEdtiorjs";
 
 (async () => {
 
@@ -22,7 +22,7 @@ import CkEditorjs from "./view/CkEditorjs";
     SkyRouter.route("froalajs", Froalajs);
     SkyRouter.route("ckeditor", CkEditorjs);
     SkyRouter.route("quilljs", Quilljs);
-    SkyRouter.route("toastjs", Toastjs);
+    SkyRouter.route("toastjs", ToastEdtiorjs);
     SkyRouter.route("editorjs", Editorjs);
     SkyRouter.route("tinymcejs", Tinymcejs);
 
