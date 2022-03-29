@@ -25,7 +25,7 @@ export default class ToastEdtiorjs implements View {
             el: this.editor.domElement,
             height: "500px",
             initialEditType: 'markdown',
-            previewStyle: 'vertical'
+            previewStyle: 'vertical',
         });
     }
 
